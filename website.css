@@ -1,0 +1,180 @@
+*{
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+/* Navigation Bar */
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+  background-color: blueviolet;
+  padding: 35px;
+  position: fixed;
+  top: 0%;
+  width: 100%;
+}
+.navbar .logo{
+  font-size: 30px;
+}
+.navbar .logo a{
+  color: beige;
+  /* padding: 20px; */
+}
+.navbar nav{
+  font-size: 25px;
+  margin-right: 200px;
+}
+.navbar nav a{
+  /* padding: 0 10px; */
+  margin: 0 60px;
+  color: beige;
+}
+.navbar nav a:hover{
+  color: blueviolet;
+  background-color: beige;
+}
+/* Home Section  */
+.home{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  justify-items: center;
+  margin-top: 100px;
+  /* width: 100%; */
+  background-color: rgb(27, 148, 108);
+}
+.home .hm_img{
+  width: 800px;
+  height: 400px;
+}
+.home .home-text p{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  margin: 0 20px;
+}
+.home .home-text .hi{
+  font-size: 35px;
+}
+.home .home-text .name{
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: rgb(23, 44, 107);
+}
+.home .home-text .designation{
+  font-size: 35px;
+}
+/* About Section  */
+.about{
+  display: grid;
+  grid-template-columns: 60% 40%;
+  gap: 30px;
+  background-color: rgb(27, 148, 108);
+  margin-top: 5px;
+}
+.about .about-section{
+  margin: 20px 20px;
+  text-align: left;
+}
+.about .about-section h3{
+  font-size: 50px;
+  text-decoration: underline;
+  margin: 10px 0;
+}
+.about .about-section p{
+  font-size: 25px;
+  margin: 20px 0;
+  text-transform: capitalize;
+}
+.about .about-section button{
+  padding: 10px 20px;
+  border: 1px solid black;
+  cursor: pointer;
+  background-color: rgb(52, 18, 83);
+  border-radius: 5px;
+  margin-top:25px;
+  margin-bottom: 10px;
+}
+/* .about .about-section button:hover{
+  background-color: beige;
+  box-shadow: 2px 1px 1px black;
+  color: rgb(52, 18, 83);
+} */
+.about .about-section button a{
+  color: beige;
+}
+/* .about .about-section button a:hover{
+color: rgb(52, 18, 83);
+} */
+.about .skill-section{
+  margin: 20px 20px;
+  text-align: center;
+}
+.about .skill-section h3{
+  font-size: 50px;
+  text-decoration: underline;
+  margin: 10px 0;
+}
+.about .skill-section p{
+  font-size: 25px;
+  margin: 10px 0;
+  text-transform: capitalize;
+}
+/* Project Section  */
+.project{
+  background-color: rgb(27, 148, 108);
+
+}
+.project h3{
+  font-size: 50px;
+  text-decoration: underline;
+  margin: 10px 18px;
+}
+.project-section {
+  margin: 10px;
+  min-width: 270px;
+  max-width: 385px;
+  text-align: center;
+}
+.project-section .project-div {
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+  color: rgb(70, 67, 67);
+  padding: 25px 25px;
+  border-radius:10px;
+  margin: 20px;
+  display: inline-block;
+  text-transform: capitalize;
+}
+.project-section h2 {
+  margin:10px;
+  font-weight:600;
+  font-size: 2em;
+}
+.project-div p {
+  margin:2px;
+  color: rgb(92, 91, 91);
+  font-size: 1.2em;
+  letter-spacing: 1px;
+}
+
+/* Contact Section */
+
+.contact{
+  background-color: rgb(27, 148, 108);
+  padding: 10px 18px;
+}
+.contact h1{
+  font-size: 50px;
+  text-decoration: underline;
+}
+
+
+footer{
+  background-color: rgb(27, 148, 108);
+  font-size: 20px;
+  text-align: center;
+  padding: 20px;
+}
